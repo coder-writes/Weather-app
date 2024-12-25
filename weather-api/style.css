@@ -1,0 +1,187 @@
+body,html{
+    height: 100%;
+    width: 100%;
+}
+button{
+    border-radius: 50%;
+}
+button:hover{
+    cursor: pointer;
+}
+input::placeholder{
+    font-size: 20px;
+    margin: 100px;
+}
+input{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* padding: 10px; */
+}
+.search-input-box {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    border-radius: 29px;
+    background-color: #f7f7f7;
+    height: 53px;
+}
+.search-box {
+    width: 315px;
+    position: relative;
+    height: 53px;
+}
+.search-icon {
+    width: 54px;
+    position: relative;
+    height: 55px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #7d7d7d;
+}
+.icon-sun-1 {
+    width: 93.5px;
+    position: relative;
+    height: 93.5px;
+}
+.c {
+    position: relative;
+}
+.city-1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.city {
+    width: 128px;
+    position: relative;
+    height: 59px;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle {
+    /* display: none; */
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 59px;
+}
+.div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 500;
+}
+.humidity {
+    position: absolute;
+    top: 33px;
+    left: 0px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.group-1 {
+    position: absolute;
+    top: 0px;
+    left: 71px;
+    width: 69px;
+    height: 52px;
+}
+.wind-speed-box {
+    position: absolute;
+    height: 65%;
+    width: 35.71%;
+    top: 11.54%;
+    right: 64.29%;
+    bottom: 23.46%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.humidity-box {
+    width: 140px;
+    position: relative;
+    height: 52px;
+}
+.icon-wind-1 {
+    position: absolute;
+    height: 90.38%;
+    width: 32.89%;
+    top: 5.77%;
+    right: 67.11%;
+    bottom: 3.85%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.wind-speed {
+    position: absolute;
+    top: 33px;
+    left: 0px;
+    font-size: 16px;
+    letter-spacing: -0.04em;
+    font-weight: 500;
+}
+.group-2 {
+    position: absolute;
+    top: 0px;
+    left: 62px;
+    width: 87px;
+    height: 52px;
+}
+.icon-wind-parent {
+    width: 149px;
+    position: relative;
+    height: 52px;
+}
+.info-footer {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 87px;
+}
+.weather-card {
+    position: absolute;
+    top: calc(50% - 294px);
+    left: calc(50% - 237px);
+    box-shadow: 0px 7px 15.9px rgba(0, 0, 0, 0.43);
+    border-radius: 18px;
+    background: linear-gradient(147.75deg, #905ad4, #3330a5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 42px 47px;
+    gap: 77px;
+}
+.desktop-1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    text-align: left;
+    font-size: 24px;
+    color: #fff;
+    font-family: Inter;
+}
+
+/* .middle{
+    display: none;
+}
+.info-footer{
+    display: none;
+} */
+
